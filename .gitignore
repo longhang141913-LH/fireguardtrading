@@ -1,0 +1,10 @@
+# WorkBuddy workspace internal files
+.workbuddy/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local server logs / temp
+*.log
+*.tmp
