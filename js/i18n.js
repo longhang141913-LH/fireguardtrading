@@ -6,7 +6,7 @@
 const translations = {
     en: {
         // Top Bar
-        "topbar.phone": "+86 138-0000-0000",
+        "topbar.phone": "+86 187-8643-1949",
         "topbar.shipping": "🚚 Worldwide Shipping to Middle East",
 
         // Nav
@@ -171,7 +171,7 @@ const translations = {
         "footer.p6": "Fire Alarms",
         "footer.company": "Company",
         "footer.contact": "Contact",
-        "footer.phone": "+86 138-0000-0000",
+        "footer.phone": "+86 187-8643-1949",
         "footer.hours": "Mon-Sat 9:00-18:00 (GMT+8)",
         "footer.wa": "WhatsApp Us",
         "footer.rights": "All rights reserved."
@@ -179,7 +179,7 @@ const translations = {
 
     ar: {
         // Top Bar
-        "topbar.phone": "+86 138-0000-0000",
+        "topbar.phone": "+86 187-8643-1949",
         "topbar.shipping": "🚚 شحن عالمي إلى الشرق الأوسط",
 
         // Nav
@@ -344,7 +344,7 @@ const translations = {
         "footer.p6": "إنذار الحريق",
         "footer.company": "الشركة",
         "footer.contact": "اتصل بنا",
-        "footer.phone": "+86 138-0000-0000",
+        "footer.phone": "+86 187-8643-1949",
         "footer.hours": "السبت-الخميس 9:00-18:00 (GMT+8)",
         "footer.wa": "راسلنا على واتساب",
         "footer.rights": "جميع الحقوق محفوظة."
