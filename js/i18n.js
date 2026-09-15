@@ -15,6 +15,7 @@ const translations = {
         "nav.about": "About",
         "nav.advantages": "Why Us",
         "nav.contact": "Get Quote",
+        "nav.blog": "Blog",
 
         // Hero
         "hero.badge": "🔥 Trusted by 200+ Clients in Middle East",
@@ -188,6 +189,7 @@ const translations = {
         "nav.about": "من نحن",
         "nav.advantages": "لماذا نحن",
         "nav.contact": "اطلب عرض سعر",
+        "nav.blog": "المدونة",
 
         // Hero
         "hero.badge": "🔥 موثوق به من قبل أكثر من 200 عميل في الشرق الأوسط",

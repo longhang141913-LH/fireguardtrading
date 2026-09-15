@@ -8,3 +8,5 @@ Thumbs.db
 # Local server logs / temp
 *.log
 *.tmp
+.git-credentials
+.git-credentials

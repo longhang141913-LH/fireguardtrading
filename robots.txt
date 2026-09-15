@@ -1,5 +1,19 @@
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Host (Yandex / Bing use this to determine canonical domain)
+Host: https://www.dhygm.cn
 
 # Sitemap
 Sitemap: https://www.dhygm.cn/sitemap.xml
