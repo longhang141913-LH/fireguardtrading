@@ -62,7 +62,7 @@
     <!-- Blog index -->
     <url>
         <loc>https://www.dhygm.cn/blog/</loc>
-        <lastmod>2026-09-15</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/"/>
@@ -82,6 +82,36 @@
         <image:image>
             <image:loc>https://www.dhygm.cn/images/warehouse-stock-1.jpg</image:loc>
             <image:title>Stockpile of refurbished fire extinguishers ready for export</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post: Dry Powder vs Foam vs CO2 -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/dry-powder-vs-foam-vs-co2-fire-extinguisher/</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/dry-powder-vs-foam-vs-co2-fire-extinguisher/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/dry-powder-vs-foam-vs-co2-fire-extinguisher/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/various-types.jpg</image:loc>
+            <image:title>Dry powder, foam and CO2 fire extinguishers compared</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post: Fire Extinguisher HS Code & GCC Import Duty -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/fire-extinguisher-hs-code-import-duty-gcc/</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/fire-extinguisher-hs-code-import-duty-gcc/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/fire-extinguisher-hs-code-import-duty-gcc/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/container-loading-1.jpg</image:loc>
+            <image:title>Loading fire extinguishers into a container for GCC export</image:title>
         </image:image>
     </url>
 
