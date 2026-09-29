@@ -62,7 +62,7 @@
     <!-- Blog index -->
     <url>
         <loc>https://www.dhygm.cn/blog/</loc>
-        <lastmod>2026-09-17</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/"/>
@@ -112,6 +112,36 @@
         <image:image>
             <image:loc>https://www.dhygm.cn/images/container-loading-1.jpg</image:loc>
             <image:title>Loading fire extinguishers into a container for GCC export</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post: How to Verify a China Fire Extinguisher Supplier -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/how-to-verify-china-fire-extinguisher-supplier/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/how-to-verify-china-fire-extinguisher-supplier/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/how-to-verify-china-fire-extinguisher-supplier/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/workshop.jpg</image:loc>
+            <image:title>Fire extinguisher refurbishment workshop used to verify suppliers</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post: Fire Extinguisher Maintenance Schedule -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/fire-extinguisher-maintenance-schedule/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/fire-extinguisher-maintenance-schedule/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/fire-extinguisher-maintenance-schedule/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/filling-machine.jpg</image:loc>
+            <image:title>Fire extinguisher refilling and inspection at a workshop</image:title>
         </image:image>
     </url>
 
