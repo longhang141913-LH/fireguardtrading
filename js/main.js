@@ -6,6 +6,24 @@
 // Format: country code + number, no + or spaces
 const WHATSAPP_NUMBER = "8618786431949";
 
+// Pre-filled WhatsApp greetings per language
+const WA_GREETINGS = {
+    en: "Hello FireGuard Trading, I'd like to inquire about your fire extinguishers.",
+    ar: "مرحباً فاير جارد تريدينغ، أرغب في الاستفسار عن طفايات الحريق لديكم."
+};
+
+// --- Update WhatsApp links based on current language ---
+function updateWhatsAppLinks(lang) {
+    const text = WA_GREETINGS[lang] || WA_GREETINGS.en;
+    const base = `https://wa.me/${WHATSAPP_NUMBER}`;
+    const withText = `${base}?text=${encodeURIComponent(text)}`;
+    document.querySelectorAll('a[href*="wa.me/"]').forEach(a => {
+        // Skip links that already build their own text dynamically (form submit opens its own URL)
+        if (a.dataset.waSkip === "1") return;
+        a.setAttribute("href", withText);
+    });
+}
+
 // --- Language Management ---
 function setLanguage(lang) {
     const html = document.documentElement;
@@ -33,6 +51,9 @@ function setLanguage(lang) {
             el.setAttribute("placeholder", translations[lang][key]);
         }
     });
+
+    // Update WhatsApp link greetings
+    updateWhatsAppLinks(lang);
 
     // Update active button
     document.querySelectorAll(".lang-switch__btn").forEach(btn => {

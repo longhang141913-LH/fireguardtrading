@@ -33,6 +33,21 @@ const translations = {
         "trust.price": "Competitive Pricing",
         "trust.support": "24/7 Customer Support",
 
+        // Certifications Strip
+        "cert.label": "Certified & Accepted Across the GCC",
+        "cert.saso.name": "SASO IEC",
+        "cert.saso.region": "Saudi Arabia",
+        "cert.moiat.name": "MoIAT ECAS",
+        "cert.moiat.region": "United Arab Emirates",
+        "cert.gac.name": "GAC Conformity",
+        "cert.gac.region": "Qatar",
+        "cert.ce.name": "CE · EN 3 Standard",
+        "cert.ce.region": "European Conformity",
+        "cert.iso.name": "ISO 9001",
+        "cert.iso.region": "Quality Management",
+        "cert.ta.name": "Trade Assurance",
+        "cert.ta.region": "Escrow Payment",
+
         // Products
         "products.label": "Our Products",
         "products.title": "Fire Safety Equipment Catalog",
@@ -175,7 +190,24 @@ const translations = {
         "footer.phone": "+86 187-8643-1949",
         "footer.hours": "Mon-Sat 9:00-18:00 (GMT+8)",
         "footer.wa": "WhatsApp Us",
-        "footer.rights": "All rights reserved."
+        "footer.rights": "All rights reserved.",
+
+        // Indicative Pricing
+        "pricing.label": "Indicative Pricing",
+        "pricing.title": "Reference FOB Prices in USD, AED & SAR",
+        "pricing.desc": "For quick budgeting. Final price depends on quantity, destination port, and current exchange rates. Request a firm quote below.",
+        "pricing.th.item": "Item",
+        "pricing.th.spec": "Spec",
+        "pricing.th.moq": "MOQ",
+        "pricing.r1.item": "ABC Dry Powder (refurbished)",
+        "pricing.r1.spec": "4 kg · EN 3 · pressure tested",
+        "pricing.r2.item": "ABC Dry Powder (refurbished)",
+        "pricing.r2.spec": "6 kg · EN 3 · pressure tested",
+        "pricing.r3.item": "CO₂ (refurbished)",
+        "pricing.r3.spec": "2 kg · electrical / IT rooms",
+        "pricing.r4.item": "Wheeled Dry Powder",
+        "pricing.r4.spec": "50 kg · industrial / refinery",
+        "pricing.note": "⚠ Reference FOB prices per unit. Freight, insurance, customs duty, VAT and certification costs are additional and depend on your destination. Indicative FX: 1 USD ≈ 3.673 AED ≈ 3.75 SAR (pegged). Contact us for a current quote."
     },
 
     ar: {
@@ -206,6 +238,21 @@ const translations = {
         "trust.shipping": "شحن عالمي سريع",
         "trust.price": "أسعار تنافسية",
         "trust.support": "دعم على مدار الساعة",
+
+        // Certifications Strip
+        "cert.label": "شهادات ومعايير معترف بها في الخليج",
+        "cert.saso.name": "SASO IEC",
+        "cert.saso.region": "المملكة العربية السعودية",
+        "cert.moiat.name": "MoIAT ECAS",
+        "cert.moiat.region": "الإمارات العربية المتحدة",
+        "cert.gac.name": "مطابقة GAC",
+        "cert.gac.region": "قطر",
+        "cert.ce.name": "CE · EN 3",
+        "cert.ce.region": "المطابقة الأوروبية",
+        "cert.iso.name": "ISO 9001",
+        "cert.iso.region": "إدارة الجودة",
+        "cert.ta.name": "ضمان التجارة",
+        "cert.ta.region": "دفع آمن (Escrow)",
 
         // Products
         "products.label": "منتجاتنا",
@@ -349,6 +396,23 @@ const translations = {
         "footer.phone": "+86 187-8643-1949",
         "footer.hours": "السبت-الخميس 9:00-18:00 (GMT+8)",
         "footer.wa": "راسلنا على واتساب",
-        "footer.rights": "جميع الحقوق محفوظة."
+        "footer.rights": "جميع الحقوق محفوظة.",
+
+        // Indicative Pricing
+        "pricing.label": "أسعار استرشادية",
+        "pricing.title": "أسعار FOB مرجعية بالدولار والدرهم والريال",
+        "pricing.desc": "للمساعدة في وضع الميزانية. السعر الفعلي يعتمد على الكمية وميناء الوجهة وأسعار الصرف الحالية. اطلب عرض سعر نهائي أدناه.",
+        "pricing.th.item": "المنتج",
+        "pricing.th.spec": "المواصفات",
+        "pricing.th.moq": "الحد الأدنى",
+        "pricing.r1.item": "بودرة جافة ABC (مجددة)",
+        "pricing.r1.spec": "4 كجم · EN 3 · مختبر الضغط",
+        "pricing.r2.item": "بودرة جافة ABC (مجددة)",
+        "pricing.r2.spec": "6 كجم · EN 3 · مختبر الضغط",
+        "pricing.r3.item": "CO₂ (مجددة)",
+        "pricing.r3.spec": "2 كجم · كهربائي / غرف IT",
+        "pricing.r4.item": "بودرة جافة بعجلات",
+        "pricing.r4.spec": "50 كجم · صناعي / مصافي",
+        "pricing.note": "⚠ أسعار FOB استرشادية للوحدة. الشحن والتأمين والرسوم الجمركية وضريبة القيمة المضافة وتكاليف الشهادات تعتمد على بلد الوجهة. سعر الصرف المرجعي: 1 دولار ≈ 3.673 درهم ≈ 3.75 ريال (مثبت). تواصل معنا للحصول على عرض سعر حالي."
     }
 };
