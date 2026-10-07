@@ -3,60 +3,24 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+    <!-- 说明：
+         1. 已删除 #products / #about / #advantages / #gallery / #contact 五个锚点 URL —— Google 会忽略 URL fragment，
+            这些条目等于无效内容，且会稀释 sitemap 的可信度。
+         2. 已删除所有指向 ?lang=ar 的 hreflang —— 该 URL 实际返回英文页，声明与内容不符。
+         3. 阿语文章保留 ar 自身声明，但不再硬凑不存在的英文对应页（此前把两篇不同主题的英文文章当"译文"指过去，
+            属于错误配对）。等真正的英文对照版上线后再补 en 配对。 -->
+
     <!-- Homepage -->
     <url>
         <loc>https://www.dhygm.cn/</loc>
-        <lastmod>2026-09-15</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/warehouse-stock-1.jpg</image:loc>
             <image:title>Refurbished fire extinguishers ready for export</image:title>
             <image:caption>FireGuard Trading warehouse stock</image:caption>
         </image:image>
-    </url>
-
-    <!-- Products section -->
-    <url>
-        <loc>https://www.dhygm.cn/#products</loc>
-        <lastmod>2026-09-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <!-- About section -->
-    <url>
-        <loc>https://www.dhygm.cn/#about</loc>
-        <lastmod>2026-09-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Advantages section -->
-    <url>
-        <loc>https://www.dhygm.cn/#advantages</loc>
-        <lastmod>2026-09-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Gallery section -->
-    <url>
-        <loc>https://www.dhygm.cn/#gallery</loc>
-        <lastmod>2026-09-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Contact section -->
-    <url>
-        <loc>https://www.dhygm.cn/#contact</loc>
-        <lastmod>2026-09-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 
     <!-- Blog index -->
@@ -65,9 +29,6 @@
         <lastmod>2026-10-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/"/>
     </url>
 
     <!-- Blog post: Used Fire Extinguisher Export Guide -->
@@ -76,9 +37,6 @@
         <lastmod>2026-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/warehouse-stock-1.jpg</image:loc>
             <image:title>Stockpile of refurbished fire extinguishers ready for export</image:title>
@@ -91,9 +49,6 @@
         <lastmod>2026-09-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/dry-powder-vs-foam-vs-co2-fire-extinguisher/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/dry-powder-vs-foam-vs-co2-fire-extinguisher/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/various-types.jpg</image:loc>
             <image:title>Dry powder, foam and CO2 fire extinguishers compared</image:title>
@@ -106,9 +61,6 @@
         <lastmod>2026-09-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/fire-extinguisher-hs-code-import-duty-gcc/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/fire-extinguisher-hs-code-import-duty-gcc/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/container-loading-1.jpg</image:loc>
             <image:title>Loading fire extinguishers into a container for GCC export</image:title>
@@ -121,9 +73,6 @@
         <lastmod>2026-09-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/how-to-verify-china-fire-extinguisher-supplier/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/how-to-verify-china-fire-extinguisher-supplier/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/workshop.jpg</image:loc>
             <image:title>Fire extinguisher refurbishment workshop used to verify suppliers</image:title>
@@ -136,14 +85,12 @@
         <lastmod>2026-09-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/fire-extinguisher-maintenance-schedule/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/?lang=ar"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/fire-extinguisher-maintenance-schedule/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/filling-machine.jpg</image:loc>
             <image:title>Fire extinguisher refilling and inspection at a workshop</image:title>
         </image:image>
     </url>
+
     <!-- Blog post (Arabic): Used Fire Extinguisher Commercial Value -->
     <url>
         <loc>https://www.dhygm.cn/blog/used-fire-extinguisher-commercial-value-ar/</loc>
@@ -151,8 +98,6 @@
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/blog/used-fire-extinguisher-commercial-value-ar/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/used-fire-extinguisher-commercial-value-ar/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/warehouse-stock-1.jpg</image:loc>
             <image:title>مخزون طفايات الحريق المستعملة جاهز للتجديد والتصدير</image:title>
@@ -166,8 +111,6 @@
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/blog/used-fire-extinguisher-refilling-ar/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/fire-extinguisher-maintenance-schedule/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/used-fire-extinguisher-refilling-ar/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/filling-machine.jpg</image:loc>
             <image:title>ماكينة إعادة تعبئة طفايات الحريق في الورشة</image:title>
