@@ -26,7 +26,7 @@
     <!-- Blog index -->
     <url>
         <loc>https://www.dhygm.cn/blog/</loc>
-        <lastmod>2026-10-04</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -114,6 +114,53 @@
         <image:image>
             <image:loc>https://www.dhygm.cn/images/filling-machine.jpg</image:loc>
             <image:title>ماكينة إعادة تعبئة طفايات الحريق في الورشة</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post (English): New vs Used Fire Extinguisher Import Cost -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost-ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/container-40ft-chassis.jpg</image:loc>
+            <image:title>40ft container used to model new vs used fire extinguisher import costs</image:title>
+            <image:caption>One 40ft GP container: 67.7 m³ and 26,580 kg of payload</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/yantian-port-shenzhen.jpg</image:loc>
+            <image:title>Yantian container terminal, Shenzhen</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/extinguisher-new-6kg.jpg</image:loc>
+            <image:title>New 6 kg ABC dry powder fire extinguisher</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/extinguisher-used-refurbished.jpg</image:loc>
+            <image:title>Refurbished used dry powder fire extinguisher</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post (Arabic): New vs Used Fire Extinguisher Import Cost -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost-ar/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost-ar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/new-vs-used-fire-extinguisher-import-cost/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/yantian-port-shenzhen.jpg</image:loc>
+            <image:title>محطة حاويات يانتشو في شنتشن</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/container-stuffing-forklift.jpg</image:loc>
+            <image:title>تحميل حاوية 40 قدماً برافعة شوكية</image:title>
         </image:image>
     </url>
 

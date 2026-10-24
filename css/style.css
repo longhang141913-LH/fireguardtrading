@@ -1737,3 +1737,142 @@ ul {
         padding: 8px;
     }
 }
+
+/* ==========================================================================
+   Blog article chrome (topbar + nav)
+   Scoped to direct children of <body> so the homepage header is untouched.
+   ========================================================================== */
+
+body > .topbar {
+    background: #18191c;
+    color: #d7d9de;
+    font-size: 0.875rem;
+}
+
+body > .topbar .topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 9px 0;
+}
+
+body > .topbar .topbar__item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body > .topbar .topbar__item a:hover {
+    text-decoration: underline;
+}
+
+body > .nav {
+    background: #ffffff;
+    border-bottom: 1px solid #e6e8ec;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+}
+
+body > .nav .nav__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 0;
+}
+
+body > .nav .logo__icon {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+body > .nav .logo__text,
+body > .nav .logo__text a {
+    font-family: var(--font-heading, inherit);
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: -0.01em;
+    color: #18191c;
+    white-space: nowrap;
+}
+
+body > .nav .logo__accent {
+    color: var(--primary, #c8102e);
+}
+
+body > .nav .nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body > .nav .nav__menu li {
+    margin: 0;
+}
+
+body > .nav .nav__menu a {
+    color: #2c2e33;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+body > .nav .nav__menu a:hover,
+body > .nav .nav__menu a.nav__link--active {
+    color: var(--primary, #c8102e);
+}
+
+body > .nav .btn--whatsapp {
+    white-space: nowrap;
+}
+
+[dir="rtl"] body > .nav .nav__menu,
+[dir="rtl"] body > .topbar .topbar__inner {
+    direction: rtl;
+}
+
+@media (max-width: 900px) {
+    body > .nav .nav__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    body > .nav .nav__menu {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    body > .nav .nav__menu a {
+        font-size: 0.875rem;
+    }
+
+    body > .topbar .topbar__item--right {
+        display: none;
+    }
+}
+
+/* Article body list markers: the global `ul { list-style: none }` reset
+   also stripped bullets from article prose. Restore them scoped. */
+.blog-post__body ul {
+    list-style: disc outside;
+}
+
+.blog-post__body ul li::marker {
+    color: var(--primary, #c8102e);
+}
+
+[dir="rtl"] .blog-post__body ul,
+[dir="rtl"] .blog-post__body ol {
+    padding-left: 0;
+    padding-right: 24px;
+}
