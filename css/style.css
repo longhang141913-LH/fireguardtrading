@@ -1615,6 +1615,20 @@ ul {
     color: var(--text-primary, #18191c);
 }
 
+/* In-body links must look like links: the global `a{color:inherit}` rule
+   made every internal link indistinguishable from body text. */
+.blog-post__body a {
+    color: var(--primary, #c8102e);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}
+
+.blog-post__body a:hover {
+    color: #a00d26;
+    text-decoration-thickness: 2px;
+}
+
 .blog-post__quote {
     margin: 32px 0;
     padding: 20px 24px;
