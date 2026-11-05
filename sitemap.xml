@@ -34,12 +34,30 @@
     <!-- Blog post: Used Fire Extinguisher Export Guide -->
     <url>
         <loc>https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide-ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
         <image:image>
             <image:loc>https://www.dhygm.cn/images/warehouse-stock-1.jpg</image:loc>
             <image:title>Stockpile of refurbished fire extinguishers ready for export</image:title>
+        </image:image>
+    </url>
+
+    <!-- Blog post (Arabic): Used Fire Extinguisher Export Guide -->
+    <url>
+        <loc>https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide-ar/</loc>
+        <lastmod>2026-11-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide-ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dhygm.cn/blog/used-fire-extinguisher-export-guide/"/>
+        <image:image>
+            <image:loc>https://www.dhygm.cn/images/warehouse-stock-1.jpg</image:loc>
+            <image:title>طفايات حريق مُجدَّدة جاهزة للتصدير إلى دول الخليج</image:title>
         </image:image>
     </url>
 
